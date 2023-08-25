@@ -14,7 +14,7 @@ require("dotenv").config();
 const port = process.env.PORT || 4000;
 
 app.use(cors({
-      origin :"*",
+      origin : "http://localhost:5000","http://mern-task-app.onrender.com",
       methods : "GET,HEAD,PUT,POST,DELETE"
 }));
 
